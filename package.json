@@ -1,0 +1,16 @@
+{
+  "name": "messagequeue",
+  "version": "1.0.0",
+  "description": "this is me implementing a message queue since ive never really done it before",
+  "main": "index.js",
+  "scripts": {
+    "start": "./receive.js& gnome-terminal -x ./send.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas McDonald",
+  "license": "ISC",
+  "dependencies": {
+    "ampq": "^2019.5.11",
+    "amqplib": "^0.8.0"
+  }
+}
